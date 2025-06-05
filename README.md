@@ -74,6 +74,7 @@ cd dietlens-backend
 
 # 创建并激活虚拟环境
 conda create -n dietlens python=3.10.0
+conda activate dietlens
 
 # 安装依赖
 pip install -r requirements.txt
@@ -160,4 +161,4 @@ dietlens/
 
 ### 3. CORS跨域问题
 
-使用Request插件解决跨域问题。
+使用[Requestly](https://chromewebstore.google.com/detail/requestly-opensource-web/mdnleldcmiljblolnjhpnblkcekpdkpa)插件解决跨域问题。
